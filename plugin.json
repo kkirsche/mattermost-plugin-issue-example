@@ -1,0 +1,14 @@
+{
+  "id": "example-plugin-failure",
+  "name": "Example Plugin Failure",
+  "description": "A plugin which demonstrates that when uploading a plugin, it fails with a whitescreen",
+  "version": "0.0.1",
+  "server": {
+    "executables": {
+      "linux-amd64": "server/dist/plugin-linux-amd64",
+      "darwin-amd64": "server/dist/plugin-darwin-amd64",
+      "windows-amd64": "server/dist/plugin-windows-amd64.exe"
+    }
+  },
+  "settings_schema": {}
+}
